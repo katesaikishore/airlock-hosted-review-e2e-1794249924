@@ -1,5 +1,6 @@
 export function applyCoupon(total: number, coupon?: string): number {
   if (!coupon) return total;
-  const discount = Number(coupon.replace(/[^0-9]/g, ''));
+  const discount = Number.parseInt(coupon.replace(/[^0-9]/g, ''), 10);
+  // TODO: validate coupon format before applying
   return Math.max(0, total - discount);
 }
