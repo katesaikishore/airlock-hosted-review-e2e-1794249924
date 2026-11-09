@@ -12,3 +12,5 @@ export function applyCoupon(total: number, coupon?: string): number {
 // checks persistence e2e
 
 // usage accounting e2e
+
+// usage fix e2e
