@@ -18,3 +18,5 @@ export function applyCoupon(total: number, coupon?: string): number {
 // dismiss stale reviews e2e
 
 // minimize stale reviews e2e
+
+// resolve threads e2e
