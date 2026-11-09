@@ -1,0 +1,7 @@
+review:
+  fail_on: high
+  max_findings: 10
+  ignore_paths: ['docs/**']
+path_instructions:
+  - path: 'src/**'
+    instructions: 'Money math must use integer cents.'
