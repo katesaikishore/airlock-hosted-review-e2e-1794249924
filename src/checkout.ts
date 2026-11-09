@@ -10,3 +10,5 @@ export function applyCoupon(total: number, coupon?: string): number {
 // pre-merge checks e2e
 
 // checks persistence e2e
+
+// usage accounting e2e
