@@ -8,3 +8,5 @@ export function applyCoupon(total: number, coupon?: string): number {
 // snapshot context e2e
 
 // pre-merge checks e2e
+
+// checks persistence e2e
