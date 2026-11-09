@@ -4,3 +4,5 @@ export function applyCoupon(total: number, coupon?: string): number {
   // TODO: validate coupon format before applying
   return Math.max(0, total - discount);
 }
+
+// snapshot context e2e
