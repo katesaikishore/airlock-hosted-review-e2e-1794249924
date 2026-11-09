@@ -14,3 +14,5 @@ export function applyCoupon(total: number, coupon?: string): number {
 // usage accounting e2e
 
 // usage fix e2e
+
+// dismiss stale reviews e2e
